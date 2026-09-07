@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+<meta name="theme-color" content="#f59e0b"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<title>DriveIQ</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%;background:#06060f;font-family:'Share Tech Mono',monospace;overflow:hidden}
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Share+Tech+Mono&display=swap');
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+  @keyframes blink{0%,100%{opacity:1}50%{opacity:.1}}
+  .leaflet-container{background:#06060f!important}
+  .leaflet-control-attribution{display:none!important}
+  ::-webkit-scrollbar{width:4px}
+  ::-webkit-scrollbar-track{background:#0a0a1a}
+  ::-webkit-scrollbar-thumb{background:#333}
+  button{font-family:'Share Tech Mono',monospace}
+  input{font-family:'Share Tech Mono',monospace}
+</style>
+</head>
+<body>
+<div id="app"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script type="text/babel" data-presets="react">
+</script>
+</body>
+</html>
